@@ -1,4 +1,4 @@
-SELECT * FROM empleado;
+SELECT * FROM bonif_por_utilidad;
 
 
 DECLARE
@@ -9,9 +9,10 @@ v_nombrecompleto_emp VARCHAR2(200);
 v_id_comuna empleado.id_comuna%TYPE;
 v_sueldo_base empleado.sueldo_base%TYPE;
 v_nombre_comuna comuna.id_comuna%type;
-v_contador number(10);
+v_contador number(3) := 200;
 v_porc_movil_normal number(2);
 v_valor_movil_normal number(7);
+v_valor_movil_extra number(6);
 
 BEGIN
 SELECT 
@@ -20,20 +21,26 @@ em.numrun_emp,
 em.dvrun_emp,
 em.pnombre_emp||' '||snombre_emp||' '||appaterno_emp||' '||apmaterno_emp,
 em.sueldo_base,
-c.nombre_comuna,
-bpu.anno_proceso
-
-into v_id_emp, v_numrun_emp,v_dvrun_emp,v_nombrecompleto_emp, v_nombre_comuna
+c.nombre_comuna
+into v_id_emp, v_numrun_emp,v_dvrun_emp,v_nombrecompleto_emp,v_sueldo_base, v_nombre_comuna
 FROM empleado em
 join comuna c on em.id_comuna = c.id_comuna
-join bonif_por_utilidad bpu on em.id_emp = bpu.id_emp
 where em.id_emp = v_id_emp;
 
 while v_id_emp <= 320 loop
-v_porc_movil_nomal := (trunc(2,v_sueldo_base));
-
+v_porc_movil_normal := (trunc(2,v_sueldo_base));
+v_valor_movil_normal := (v_porc_movil_normal*v_sueldo_base);
+if v_nombre_comuna = 'Maria Pinto' THEN v_valor_movil_extra := 20000;
+elsif v_nombre_comuna = 'Curacavi' THEN v_valor_movil_extra := 25000;
+elsif v_nombre_comuna = 'Talagante' THEN v_valor_movil_extra := 30000;
+elsif v_nombre_comuna = 'El Monte' THEN v_valor_movil_extra := 35000;
+elsif v_nombre_comuna = 'Buin' THEN v_valor_movil_extra := 40000;
+else v_valor_movil_extra := 0;
+end if;
 v_contador := v_contador + 10;
-
-end loop
+end loop;
  
-end
+DBMS_OUTPUT.PUT_LINE('Proceso terminado'||' '||v_id_emp||' '||v_numrun_emp||' '||v_dvrun_emp||' 
+'||v_nombrecompleto_emp||' '||v_nombre_comuna||' '||v_sueldo_base||' '||v_porc_movil_normal||' '||v_valor_movil_normal||'
+'||v_valor_movil_extra||' ' );
+end;
