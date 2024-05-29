@@ -1,0 +1,201 @@
+Tipo: cliente
+ID Vendedor: 5
+Nombre Completo: ZAMORA MOLINA TOMÁS
+RUT Vendedor: 
+Nombre Grupo: 
+Nombre Categoria: 
+Sueldo: 
+---------------------------------
+Tipo: vendedor
+ID Vendedor: 15
+Nombre Completo: NORMA BAÑADOS
+RUT Vendedor: 33333334
+Nombre Grupo: Grupo A
+Nombre Categoria: Categoria A
+Sueldo:      $367.400
+---------------------------------
+Tipo: vendedor
+ID Vendedor: 60
+Nombre Completo: ROLANDO GUERRA
+RUT Vendedor: 121111114
+Nombre Grupo: Grupo D
+Nombre Categoria: Categoria B
+Sueldo:      $356.734
+---------------------------------
+Tipo: vendedor
+ID Vendedor: 65
+Nombre Completo: HERNALDO CACERES
+RUT Vendedor: 131111115
+Nombre Grupo: Grupo D
+Nombre Categoria: Categoria B
+Sueldo:      $364.832
+---------------------------------
+Tipo: vendedor
+ID Vendedor: 70
+Nombre Completo: ROBERTO SALAS
+RUT Vendedor: 141111116
+Nombre Grupo: Grupo D
+Nombre Categoria: Categoria D
+Sueldo:      $378.484
+---------------------------------
+Tipo: vendedor
+ID Vendedor: 75
+Nombre Completo: PAZ GUERRA
+RUT Vendedor: 151111117
+Nombre Grupo: Grupo A
+Nombre Categoria: Categoria C
+Sueldo:      $478.584
+---------------------------------
+Tipo: cliente
+ID Vendedor: 1
+Nombre Completo: ALCARAZ NOVOA MONTSERRAT
+RUT Vendedor: 
+Nombre Grupo: 
+Nombre Categoria: 
+Sueldo: 
+---------------------------------
+Tipo: cliente
+ID Vendedor: 2
+Nombre Completo: JIMÉNEZ LORCA ELENA
+RUT Vendedor: 
+Nombre Grupo: 
+Nombre Categoria: 
+Sueldo: 
+---------------------------------
+Tipo: cliente
+ID Vendedor: 4
+Nombre Completo: LOPEZ ROJAS THOMAS
+RUT Vendedor: 
+Nombre Grupo: 
+Nombre Categoria: 
+Sueldo: 
+---------------------------------
+Tipo: cliente
+ID Vendedor: 6
+Nombre Completo: GALLO LÓPEZ GONZALO
+RUT Vendedor: 
+Nombre Grupo: 
+Nombre Categoria: 
+Sueldo: 
+---------------------------------
+Tipo: cliente
+ID Vendedor: 7
+Nombre Completo: VIVEROS MIRANDA ELIZABETH
+RUT Vendedor: 
+Nombre Grupo: 
+Nombre Categoria: 
+Sueldo: 
+---------------------------------
+Tipo: cliente
+ID Vendedor: 8
+Nombre Completo: LAMONT ORTEGA OLIVIA
+RUT Vendedor: 
+Nombre Grupo: 
+Nombre Categoria: 
+Sueldo: 
+---------------------------------
+Tipo: vendedor
+ID Vendedor: 5
+Nombre Completo: MARIA RIVERA
+RUT Vendedor: 11111112
+Nombre Grupo: Grupo A
+Nombre Categoria: Categoria C
+Sueldo:      $350.000
+---------------------------------
+Tipo: vendedor
+ID Vendedor: 25
+Nombre Completo: ADRIANA LAGOS
+RUT Vendedor: 55555556
+Nombre Grupo: Grupo B
+Nombre Categoria: Categoria D
+Sueldo:      $359.000
+---------------------------------
+Tipo: vendedor
+ID Vendedor: 30
+Nombre Completo: OLGA CAJAS
+RUT Vendedor: 66666667
+Nombre Grupo: Grupo B
+Nombre Categoria: Categoria C
+Sueldo:      $346.372
+---------------------------------
+Tipo: vendedor
+ID Vendedor: 35
+Nombre Completo: HUMBERTO ORREGO
+RUT Vendedor: 77777778
+Nombre Grupo: Grupo B
+Nombre Categoria: Categoria A
+Sueldo:      $354.000
+---------------------------------
+Tipo: vendedor
+ID Vendedor: 45
+Nombre Completo: DAVID ARAYA
+RUT Vendedor: 99999991
+Nombre Grupo: Grupo C
+Nombre Categoria: Categoria C
+Sueldo:      $338.934
+---------------------------------
+Tipo: vendedor
+ID Vendedor: 50
+Nombre Completo: DOMITILA PAREDES
+RUT Vendedor: 101111112
+Nombre Grupo: Grupo C
+Nombre Categoria: Categoria A
+Sueldo:      $338.432
+---------------------------------
+Tipo: cliente
+ID Vendedor: 3
+Nombre Completo: TORRES ROCA MARÍA
+RUT Vendedor: 
+Nombre Grupo: 
+Nombre Categoria: 
+Sueldo: 
+---------------------------------
+Tipo: cliente
+ID Vendedor: 9
+Nombre Completo: SEVILLANO MORENO LUISA
+RUT Vendedor: 
+Nombre Grupo: 
+Nombre Categoria: 
+Sueldo: 
+---------------------------------
+Tipo: vendedor
+ID Vendedor: 20
+Nombre Completo: FEDERICO CASTAÑEDA
+RUT Vendedor: 44444445
+Nombre Grupo: Grupo B
+Nombre Categoria: Categoria C
+Sueldo:      $373.620
+---------------------------------
+Tipo: cliente
+ID Vendedor: 10
+Nombre Completo: CHÁVEZ CARDENAS TERRY
+RUT Vendedor: 
+Nombre Grupo: 
+Nombre Categoria: 
+Sueldo: 
+---------------------------------
+Tipo: vendedor
+ID Vendedor: 10
+Nombre Completo: JEREMIAS LORCA
+RUT Vendedor: 22222223
+Nombre Grupo: Grupo C
+Nombre Categoria: Categoria B
+Sueldo:      $345.000
+---------------------------------
+Tipo: vendedor
+ID Vendedor: 40
+Nombre Completo: CARLOS ORTEGA
+RUT Vendedor: 88888889
+Nombre Grupo: Grupo C
+Nombre Categoria: Categoria A
+Sueldo:      $353.504
+---------------------------------
+Tipo: vendedor
+ID Vendedor: 55
+Nombre Completo: ELIZABETH MIRANDA
+RUT Vendedor: 111111113
+Nombre Grupo: Grupo C
+Nombre Categoria: Categoria A
+Sueldo:      $348.232
+---------------------------------
+
