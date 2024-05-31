@@ -15,6 +15,7 @@ OPEN cur_pokemon;
           dbms_output.put_line(v_pokemon_elect);
         EXIT WHEN cur_pokemon%NOTFOUND;
     END LOOP;    
+    COMMIT;
 END;
 
 -----------------------------------------------------
